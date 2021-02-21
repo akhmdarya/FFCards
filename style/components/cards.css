@@ -1,0 +1,140 @@
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 48px;
+
+
+}
+.cards-inner{
+   
+ position: relative;
+    /* display: inline-block; */
+    
+}
+.cards-inner_item{
+  
+    display: inline-block;
+    width: 248px;
+height: 322.95px;
+
+margin: 19px;
+background: #FFFFFF;
+}
+.cards-inner_item-container{
+      position: relative !important;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 57px; */
+    margin: 57px 40px 0 40px;
+
+}
+.cards-inner_item-img{
+    max-width: 167.7px;
+    max-height: 32.9px;
+    min-width: 80.98px;
+min-height: 23.23px;
+}
+
+.cards-inner_item-percent{
+ position: relative !important;;  
+    padding-top: 55px;
+     padding-bottom: 58px;
+    width:  116px;
+  
+}
+.cards-inner_item-percent-number{
+font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+   
+    color: #47BE00;
+}
+.cards-inner_item-percent:hover {
+    cursor: pointer;
+}
+.block{
+
+     position:absolute;
+     left: -66px;
+     top: 25px;
+     width: 248px;
+     height: 185px;
+    background:#FFFFFF;
+
+    display:none;
+}
+.cards-inner_item-percent:hover .block{
+    display:block;
+}
+.cards-inner_item-button{
+    
+    width: 184.98px;
+    height: 38.68px;
+    margin: 0px 0px 0 0px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #BDBDBD;
+}
+.cards-inner_item-button:hover{
+    cursor: pointer;
+background: #75BE4C;
+color: #FFFFFF;
+}
+.block-inner{
+    margin: 0 13px;
+}
+.block-inner-parameters{
+    display: flex;
+    margin-bottom: 8px;
+        align-items: center;
+        justify-content: space-between;
+}
+.block-inner-parameters-text{
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+margin-right: 20px;
+
+
+color: #898989;
+
+}
+/* .block-inner-parameters-margin{
+    margin: 0 13px; 
+} */
+.block-inner-parameters-data{
+    white-space: nowrap;
+    font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-align: end;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.border{
+    height: 0px;
+    width: 100%;
+    border: 1px solid #DFDFDF;
+    margin-bottom: 8px;
+}

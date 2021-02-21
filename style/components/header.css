@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+
+text-align: center;
+justify-content: center;
+
+height: 124.76px;
+color: #FFFFFF;
+}
+
+.header-title{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 42px;
+line-height: 49px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+
